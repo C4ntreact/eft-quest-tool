@@ -1,0 +1,134 @@
+[
+  {
+    "id": "prapor-debut",
+    "title": "Debut",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 1,
+    "prerequisites": [],
+    "alternatives": [],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Debut"
+  },
+  {
+    "id": "prapor-checking",
+    "title": "Checking",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 2,
+    "prerequisites": ["prapor-debut"],
+    "alternatives": [],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Checking"
+  },
+  {
+    "id": "prapor-shaking-up-teller",
+    "title": "Shaking up the Teller",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 2,
+    "prerequisites": ["prapor-checking"],
+    "alternatives": [],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shaking_up_the_Teller"
+  },
+  {
+    "id": "therapist-shortage",
+    "title": "Shortage",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 1,
+    "prerequisites": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shortage"
+  },
+  {
+    "id": "therapist-sanitary-standards-1",
+    "title": "Sanitary Standards - Part 1",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 4,
+    "prerequisites": ["therapist-shortage"],
+    "alternatives": [],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_1"
+  },
+  {
+    "id": "skier-supplier",
+    "title": "Supplier",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 5,
+    "prerequisites": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Supplier"
+  },
+  {
+    "id": "skier-stirrup",
+    "title": "Stirrup",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 8,
+    "prerequisites": ["skier-supplier"],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Stirrup"
+  },
+  {
+    "id": "skier-chemical-4",
+    "title": "Chemical - Part 4",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": ["skier-stirrup"],
+    "alternatives": ["prapor-big-customer", "therapist-out-of-curiosity"],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_4"
+  },
+  {
+    "id": "prapor-big-customer",
+    "title": "Big Customer",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": ["skier-stirrup"],
+    "alternatives": ["skier-chemical-4", "therapist-out-of-curiosity"],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Big_Customer"
+  },
+  {
+    "id": "therapist-out-of-curiosity",
+    "title": "Out of Curiosity",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": ["skier-stirrup"],
+    "alternatives": ["skier-chemical-4", "prapor-big-customer"],
+    "map": "Customs",
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Out_of_Curiosity"
+  },
+  {
+    "id": "mechanic-gunsmith-1",
+    "title": "Gunsmith - Part 1",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 2,
+    "prerequisites": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_1"
+  },
+  {
+    "id": "mechanic-gunsmith-2",
+    "title": "Gunsmith - Part 2",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 5,
+    "prerequisites": ["mechanic-gunsmith-1"],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_2"
+  }
+]
