@@ -68,10 +68,23 @@ function toNode(
     ...quest,
     depth,
     status: progress[quest.id] ?? "not_started",
-    missingPrerequisites: quest.prerequisites.filter(
-      (prerequisiteId) => questById.has(prerequisiteId) && progress[prerequisiteId] !== "completed",
-    ),
+    missingPrerequisiteGroups: getMissingPrerequisiteGroups(quest, progress, questById),
+    missingPrerequisites: getMissingPrerequisiteGroups(quest, progress, questById).flat(),
   };
+}
+
+function getMissingPrerequisiteGroups(
+  quest: Quest,
+  progress: ProgressState,
+  questById: ReadonlyMap<string, Quest>,
+): string[][] {
+  const groups = quest.prerequisiteGroups?.length
+    ? quest.prerequisiteGroups
+    : quest.prerequisites.map((prerequisiteId) => [prerequisiteId]);
+
+  return groups
+    .map((group) => group.filter((prerequisiteId) => questById.has(prerequisiteId)))
+    .filter((group) => group.length > 0 && !group.some((prerequisiteId) => progress[prerequisiteId] === "completed"));
 }
 
 function sortQuests(quests: readonly Quest[]): Quest[] {

@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "data:generate": "node scripts/generateQuestData.mjs",
+    "data:validate": "node scripts/generateQuestData.mjs --validate",
     "preview": "vite preview"
   },
   "dependencies": {

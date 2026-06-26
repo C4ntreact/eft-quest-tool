@@ -1,134 +1,5101 @@
 [
   {
-    "id": "prapor-debut",
+    "id": "q-195-collector",
+    "title": "Collector",
+    "trader": "Fence",
+    "kappaRequired": false,
+    "requiredLevel": 40,
+    "prerequisites": [
+      "q-2-shootout-picnic",
+      "q-7-postman-pat",
+      "q-9-perfect-mediator",
+      "q-11-insomnia",
+      "q-12-test-drive-pt-1",
+      "q-24-supply-plans",
+      "q-25-kind-of-sabotage",
+      "q-27-car-repair",
+      "q-33-decontamination-service",
+      "q-35-athlete",
+      "q-45-vitamins-part-2",
+      "q-50-peacekeeping-mission",
+      "q-53-silent-caliber",
+      "q-54-flint",
+      "q-56-setup",
+      "q-63-the-cult-part-2",
+      "q-80-psycho-sniper",
+      "q-81-the-guide",
+      "q-97-gunsmith-part-16",
+      "q-101-signal-part-4",
+      "q-103-insider",
+      "q-108-import",
+      "q-109-fertilizers",
+      "q-110-a-shooter-born-in-heaven",
+      "q-121-scavenger",
+      "q-122-make-ultra-great-again",
+      "q-123-minibus",
+      "q-128-charisma-brings-success",
+      "q-129-no-fuss-needed",
+      "q-133-living-high-is-not-a-crime-part-2",
+      "q-142-nostalgia",
+      "q-150-the-tarkov-shooter-part-8",
+      "q-153-colleagues-part-3",
+      "q-154-the-survivalist-path-combat-medic",
+      "q-155-ambulance",
+      "q-157-reserve",
+      "q-159-the-huntsman-path-controller",
+      "q-160-the-huntsman-path-evil-watchman",
+      "q-161-fishing-place",
+      "q-163-the-huntsman-path-justice",
+      "q-164-the-huntsman-path-sellout",
+      "q-167-the-huntsman-path-eraser-part-2",
+      "q-168-hunting-trip",
+      "q-170-operation-aquarius-part-2",
+      "q-172-regulated-materials",
+      "q-173-stirrup",
+      "q-174-mentor",
+      "q-175-bad-habit",
+      "q-177-shady-business",
+      "q-178-postman-pat-part-2",
+      "q-179-out-of-curiosity",
+      "q-180-big-customer",
+      "q-181-the-survivalist-path-junkie",
+      "q-189-terragroup-employee",
+      "q-193-search-mission",
+      "q-196-the-survivalist-path-eagle-owl",
+      "q-197-an-apple-a-day-keeps-the-doctor-away",
+      "q-203-disease-history",
+      "q-206-back-door",
+      "q-208-classified-technologies",
+      "q-209-inventory-check",
+      "q-211-documents",
+      "q-212-safe-corridor",
+      "q-213-the-huntsman-path-factory-chief",
+      "q-214-pest-control",
+      "q-215-capturing-outposts",
+      "q-216-intimidator",
+      "q-219-swift-one",
+      "q-226-booze",
+      "q-230-corporate-secrets",
+      "q-231-seaside-vacation",
+      "q-233-easy-job-part-2",
+      "q-234-cargo-x-part-4",
+      "q-235-the-hermit",
+      "q-237-missing-cargo",
+      "q-239-revision-part-2",
+      "q-242-energy-crisis",
+      "q-243-overpopulation",
+      "q-245-broadcast",
+      "q-246-top-secret",
+      "q-247-stray-dogs",
+      "q-248-drug-trafficking",
+      "q-249-reconnaissance"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-2-shootout-picnic"
+      ],
+      [
+        "q-7-postman-pat"
+      ],
+      [
+        "q-9-perfect-mediator"
+      ],
+      [
+        "q-11-insomnia"
+      ],
+      [
+        "q-12-test-drive-pt-1"
+      ],
+      [
+        "q-24-supply-plans"
+      ],
+      [
+        "q-25-kind-of-sabotage"
+      ],
+      [
+        "q-27-car-repair"
+      ],
+      [
+        "q-33-decontamination-service"
+      ],
+      [
+        "q-35-athlete"
+      ],
+      [
+        "q-45-vitamins-part-2"
+      ],
+      [
+        "q-50-peacekeeping-mission"
+      ],
+      [
+        "q-53-silent-caliber"
+      ],
+      [
+        "q-54-flint"
+      ],
+      [
+        "q-56-setup"
+      ],
+      [
+        "q-63-the-cult-part-2"
+      ],
+      [
+        "q-80-psycho-sniper"
+      ],
+      [
+        "q-81-the-guide"
+      ],
+      [
+        "q-97-gunsmith-part-16"
+      ],
+      [
+        "q-101-signal-part-4"
+      ],
+      [
+        "q-103-insider"
+      ],
+      [
+        "q-108-import"
+      ],
+      [
+        "q-109-fertilizers"
+      ],
+      [
+        "q-110-a-shooter-born-in-heaven"
+      ],
+      [
+        "q-121-scavenger"
+      ],
+      [
+        "q-122-make-ultra-great-again"
+      ],
+      [
+        "q-123-minibus"
+      ],
+      [
+        "q-128-charisma-brings-success"
+      ],
+      [
+        "q-129-no-fuss-needed"
+      ],
+      [
+        "q-133-living-high-is-not-a-crime-part-2"
+      ],
+      [
+        "q-142-nostalgia"
+      ],
+      [
+        "q-150-the-tarkov-shooter-part-8"
+      ],
+      [
+        "q-153-colleagues-part-3"
+      ],
+      [
+        "q-154-the-survivalist-path-combat-medic"
+      ],
+      [
+        "q-155-ambulance"
+      ],
+      [
+        "q-157-reserve"
+      ],
+      [
+        "q-159-the-huntsman-path-controller"
+      ],
+      [
+        "q-160-the-huntsman-path-evil-watchman"
+      ],
+      [
+        "q-161-fishing-place"
+      ],
+      [
+        "q-163-the-huntsman-path-justice"
+      ],
+      [
+        "q-164-the-huntsman-path-sellout"
+      ],
+      [
+        "q-167-the-huntsman-path-eraser-part-2"
+      ],
+      [
+        "q-168-hunting-trip"
+      ],
+      [
+        "q-170-operation-aquarius-part-2"
+      ],
+      [
+        "q-172-regulated-materials"
+      ],
+      [
+        "q-173-stirrup"
+      ],
+      [
+        "q-174-mentor"
+      ],
+      [
+        "q-175-bad-habit"
+      ],
+      [
+        "q-177-shady-business"
+      ],
+      [
+        "q-178-postman-pat-part-2"
+      ],
+      [
+        "q-179-out-of-curiosity"
+      ],
+      [
+        "q-180-big-customer"
+      ],
+      [
+        "q-181-the-survivalist-path-junkie"
+      ],
+      [
+        "q-189-terragroup-employee"
+      ],
+      [
+        "q-193-search-mission"
+      ],
+      [
+        "q-196-the-survivalist-path-eagle-owl"
+      ],
+      [
+        "q-197-an-apple-a-day-keeps-the-doctor-away"
+      ],
+      [
+        "q-203-disease-history"
+      ],
+      [
+        "q-206-back-door"
+      ],
+      [
+        "q-208-classified-technologies"
+      ],
+      [
+        "q-209-inventory-check"
+      ],
+      [
+        "q-211-documents"
+      ],
+      [
+        "q-212-safe-corridor"
+      ],
+      [
+        "q-213-the-huntsman-path-factory-chief"
+      ],
+      [
+        "q-214-pest-control"
+      ],
+      [
+        "q-215-capturing-outposts"
+      ],
+      [
+        "q-216-intimidator"
+      ],
+      [
+        "q-219-swift-one"
+      ],
+      [
+        "q-226-booze"
+      ],
+      [
+        "q-230-corporate-secrets"
+      ],
+      [
+        "q-231-seaside-vacation"
+      ],
+      [
+        "q-233-easy-job-part-2"
+      ],
+      [
+        "q-234-cargo-x-part-4"
+      ],
+      [
+        "q-235-the-hermit"
+      ],
+      [
+        "q-237-missing-cargo"
+      ],
+      [
+        "q-239-revision-part-2"
+      ],
+      [
+        "q-242-energy-crisis"
+      ],
+      [
+        "q-243-overpopulation"
+      ],
+      [
+        "q-245-broadcast"
+      ],
+      [
+        "q-246-top-secret"
+      ],
+      [
+        "q-247-stray-dogs"
+      ],
+      [
+        "q-248-drug-trafficking"
+      ],
+      [
+        "q-249-reconnaissance"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Collector",
+    "sourceId": 195
+  },
+  {
+    "id": "q-222-the-choice",
+    "title": "The Choice",
+    "trader": "Fence",
+    "kappaRequired": false,
+    "requiredLevel": 60,
+    "prerequisites": [
+      "q-18-the-punisher-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-18-the-punisher-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Choice",
+    "sourceId": 222
+  },
+  {
+    "id": "q-247-stray-dogs",
+    "title": "Stray Dogs",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-238-the-huntsman-path-outcasts"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-238-the-huntsman-path-outcasts"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Stray_Dogs",
+    "sourceId": 247
+  },
+  {
+    "id": "q-235-the-hermit",
+    "title": "The Hermit",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-140-the-survivalist-path-tough-guy"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-140-the-survivalist-path-tough-guy"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Hermit",
+    "sourceId": 235
+  },
+  {
+    "id": "q-238-the-huntsman-path-outcasts",
+    "title": "The Huntsman path - Outcasts",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-162-the-huntsman-path-trophy"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-162-the-huntsman-path-trophy"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Outcasts",
+    "sourceId": 238
+  },
+  {
+    "id": "q-196-the-survivalist-path-eagle-owl",
+    "title": "The survivalist path - Eagle-owl",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-151-the-survivalist-path-cold-blooded"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-151-the-survivalist-path-cold-blooded"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Eagle-owl",
+    "sourceId": 196
+  },
+  {
+    "id": "q-181-the-survivalist-path-junkie",
+    "title": "The survivalist path - Junkie",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-151-the-survivalist-path-cold-blooded"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-151-the-survivalist-path-cold-blooded"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Junkie",
+    "sourceId": 181
+  },
+  {
+    "id": "q-135-acquaintance",
+    "title": "Acquaintance",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-134-introduction"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-134-introduction"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Acquaintance",
+    "sourceId": 135
+  },
+  {
+    "id": "q-151-the-survivalist-path-cold-blooded",
+    "title": "The survivalist path - Cold blooded",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-139-the-survivalist-path-wounded-beast"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-139-the-survivalist-path-wounded-beast"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Cold_blooded",
+    "sourceId": 151
+  },
+  {
+    "id": "q-137-the-survivalist-path-thrifty",
+    "title": "The survivalist path - Thrifty",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-135-acquaintance"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-135-acquaintance"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Thrifty",
+    "sourceId": 137
+  },
+  {
+    "id": "q-136-the-survivalist-path-unprotected-but-dangerous",
+    "title": "The survivalist path - Unprotected, but dangerous",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-135-acquaintance"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-135-acquaintance"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Survivalist_Path_-_Unprotected_but_Dangerous",
+    "sourceId": 136
+  },
+  {
+    "id": "q-143-the-tarkov-shooter-part-1",
+    "title": "The Tarkov shooter - Part 1",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-136-the-survivalist-path-unprotected-but-dangerous"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-136-the-survivalist-path-unprotected-but-dangerous"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_1",
+    "sourceId": 143
+  },
+  {
+    "id": "q-144-the-tarkov-shooter-part-2",
+    "title": "The Tarkov shooter - Part 2",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-143-the-tarkov-shooter-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-143-the-tarkov-shooter-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_2",
+    "sourceId": 144
+  },
+  {
+    "id": "q-145-the-tarkov-shooter-part-3",
+    "title": "The Tarkov shooter - Part 3",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-144-the-tarkov-shooter-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-144-the-tarkov-shooter-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_3",
+    "sourceId": 145
+  },
+  {
+    "id": "q-146-the-tarkov-shooter-part-4",
+    "title": "The Tarkov shooter - Part 4",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-145-the-tarkov-shooter-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-145-the-tarkov-shooter-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_4",
+    "sourceId": 146
+  },
+  {
+    "id": "q-147-the-tarkov-shooter-part-5",
+    "title": "The Tarkov shooter - Part 5",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-146-the-tarkov-shooter-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-146-the-tarkov-shooter-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_5",
+    "sourceId": 147
+  },
+  {
+    "id": "q-148-the-tarkov-shooter-part-6",
+    "title": "The Tarkov shooter - Part 6",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-147-the-tarkov-shooter-part-5"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-147-the-tarkov-shooter-part-5"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_6",
+    "sourceId": 148
+  },
+  {
+    "id": "q-149-the-tarkov-shooter-part-7",
+    "title": "The Tarkov shooter - Part 7",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-148-the-tarkov-shooter-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-148-the-tarkov-shooter-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_7",
+    "sourceId": 149
+  },
+  {
+    "id": "q-150-the-tarkov-shooter-part-8",
+    "title": "The Tarkov shooter - Part 8",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 2,
+    "prerequisites": [
+      "q-149-the-tarkov-shooter-part-7"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-149-the-tarkov-shooter-part-7"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_shooter_-_Part_8",
+    "sourceId": 150
+  },
+  {
+    "id": "q-138-the-survivalist-path-zhivchik",
+    "title": "The survivalist path - Zhivchik",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 9,
+    "prerequisites": [
+      "q-137-the-survivalist-path-thrifty"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-137-the-survivalist-path-thrifty"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Zhivchik",
+    "sourceId": 138
+  },
+  {
+    "id": "q-140-the-survivalist-path-tough-guy",
+    "title": "The survivalist path - Tough guy",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-139-the-survivalist-path-wounded-beast"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-139-the-survivalist-path-wounded-beast"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Tough_guy",
+    "sourceId": 140
+  },
+  {
+    "id": "q-139-the-survivalist-path-wounded-beast",
+    "title": "The survivalist path - Wounded beast",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-137-the-survivalist-path-thrifty"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-137-the-survivalist-path-thrifty"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Wounded_beast",
+    "sourceId": 139
+  },
+  {
+    "id": "q-156-the-huntsman-path-secured-perimeter",
+    "title": "The Huntsman path - Secured perimeter",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-139-the-survivalist-path-wounded-beast"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-139-the-survivalist-path-wounded-beast"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Secured_Perimeter",
+    "sourceId": 156
+  },
+  {
+    "id": "q-168-hunting-trip",
+    "title": "Hunting trip",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-165-the-huntsman-path-woods-keeper"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-165-the-huntsman-path-woods-keeper"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Hunting_trip",
+    "sourceId": 168
+  },
+  {
+    "id": "q-214-pest-control",
+    "title": "Pest control",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-165-the-huntsman-path-woods-keeper"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-165-the-huntsman-path-woods-keeper"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Pest_control",
+    "sourceId": 214
+  },
+  {
+    "id": "q-159-the-huntsman-path-controller",
+    "title": "The Huntsman path - Controller",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-158-the-huntsman-path-forest-cleaning"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-158-the-huntsman-path-forest-cleaning"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Controller",
+    "sourceId": 159
+  },
+  {
+    "id": "q-166-the-huntsman-path-eraser-part-1",
+    "title": "The Huntsman path - Eraser - Part 1",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-192-the-bunker-part-2",
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-192-the-bunker-part-2"
+      ],
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Eraser_-_Part_1",
+    "sourceId": 166
+  },
+  {
+    "id": "q-167-the-huntsman-path-eraser-part-2",
+    "title": "The Huntsman path - Eraser - Part 2",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-166-the-huntsman-path-eraser-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-166-the-huntsman-path-eraser-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Eraser_-_Part_2",
+    "sourceId": 167
+  },
+  {
+    "id": "q-160-the-huntsman-path-evil-watchman",
+    "title": "The Huntsman path - Evil watchman",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-158-the-huntsman-path-forest-cleaning"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-158-the-huntsman-path-forest-cleaning"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Evil_Watchman",
+    "sourceId": 160
+  },
+  {
+    "id": "q-213-the-huntsman-path-factory-chief",
+    "title": "The Huntsman Path - Factory Chief",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-156-the-huntsman-path-secured-perimeter",
+      "q-102-scout"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ],
+      [
+        "q-102-scout"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Factory_Chief",
+    "sourceId": 213
+  },
+  {
+    "id": "q-158-the-huntsman-path-forest-cleaning",
+    "title": "The Huntsman Path - Forest Cleaning",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Forest_Cleaning",
+    "sourceId": 158
+  },
+  {
+    "id": "q-163-the-huntsman-path-justice",
+    "title": "The Huntsman path - Justice",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-162-the-huntsman-path-trophy"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-162-the-huntsman-path-trophy"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Justice",
+    "sourceId": 163
+  },
+  {
+    "id": "q-164-the-huntsman-path-sellout",
+    "title": "The Huntsman path - Sellout",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-118-sales-night",
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-118-sales-night"
+      ],
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sellout",
+    "sourceId": 164
+  },
+  {
+    "id": "q-162-the-huntsman-path-trophy",
+    "title": "The Huntsman Path - Trophy",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Trophy",
+    "sourceId": 162
+  },
+  {
+    "id": "q-165-the-huntsman-path-woods-keeper",
+    "title": "The Huntsman Path - Woods Keeper",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Woods_Keeper",
+    "sourceId": 165
+  },
+  {
+    "id": "q-154-the-survivalist-path-combat-medic",
+    "title": "The survivalist path - Combat medic",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-151-the-survivalist-path-cold-blooded"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-151-the-survivalist-path-cold-blooded"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_survivalist_path_-_Combat_medic",
+    "sourceId": 154
+  },
+  {
+    "id": "q-141-courtesy-visit",
+    "title": "Courtesy visit",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-140-the-survivalist-path-tough-guy"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-140-the-survivalist-path-tough-guy"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Courtesy_visit",
+    "sourceId": 141
+  },
+  {
+    "id": "q-157-reserve",
+    "title": "Reserve",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-156-the-huntsman-path-secured-perimeter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-156-the-huntsman-path-secured-perimeter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Reserve_(quest)",
+    "sourceId": 157
+  },
+  {
+    "id": "q-177-shady-business",
+    "title": "Shady Business",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-38-what-s-on-the-flash-drive"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-38-what-s-on-the-flash-drive"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shady_business",
+    "sourceId": 177
+  },
+  {
+    "id": "q-190-the-huntsman-path-sadist",
+    "title": "The Huntsman path - Sadist",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-152-colleagues-part-2",
+      "q-186-rigged-game",
+      "q-187-chemistry-closet"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-152-colleagues-part-2"
+      ],
+      [
+        "q-186-rigged-game"
+      ],
+      [
+        "q-187-chemistry-closet"
+      ]
+    ],
+    "alternatives": [
+      "q-153-colleagues-part-3"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sadist",
+    "sourceId": 190
+  },
+  {
+    "id": "q-155-ambulance",
+    "title": "Ambulance",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-151-the-survivalist-path-cold-blooded"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-151-the-survivalist-path-cold-blooded"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Ambulance",
+    "sourceId": 155
+  },
+  {
+    "id": "q-161-fishing-place",
+    "title": "Fishing place",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-158-the-huntsman-path-forest-cleaning"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-158-the-huntsman-path-forest-cleaning"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Fishing_place",
+    "sourceId": 161
+  },
+  {
+    "id": "q-142-nostalgia",
+    "title": "Nostalgia",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 28,
+    "prerequisites": [
+      "q-141-courtesy-visit"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-141-courtesy-visit"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Nostalgia",
+    "sourceId": 142
+  },
+  {
+    "id": "q-198-hunter",
+    "title": "Hunter",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 33,
+    "prerequisites": [
+      "q-135-acquaintance"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-135-acquaintance"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Hunter",
+    "sourceId": 198
+  },
+  {
+    "id": "q-219-swift-one",
+    "title": "Swift One",
+    "trader": "Jaeger",
+    "kappaRequired": true,
+    "requiredLevel": 50,
+    "prerequisites": [
+      "q-190-the-huntsman-path-sadist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-190-the-huntsman-path-sadist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Swift_One",
+    "sourceId": 219
+  },
+  {
+    "id": "q-225-the-huntsman-path-relentless",
+    "title": "The Huntsman path - Relentless",
+    "trader": "Jaeger",
+    "kappaRequired": false,
+    "requiredLevel": 65,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Relentless",
+    "sourceId": 225
+  },
+  {
+    "id": "q-245-broadcast",
+    "title": "Broadcast",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-105-farming-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-105-farming-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Broadcast",
+    "sourceId": 245
+  },
+  {
+    "id": "q-82-gunsmith-part-1",
+    "title": "Gunsmith - Part 1",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_1",
+    "sourceId": 82
+  },
+  {
+    "id": "q-134-introduction",
+    "title": "Introduction",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 2,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Introduction",
+    "sourceId": 134
+  },
+  {
+    "id": "q-83-gunsmith-part-2",
+    "title": "Gunsmith - Part 2",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-82-gunsmith-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-82-gunsmith-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_2",
+    "sourceId": 83
+  },
+  {
+    "id": "q-206-back-door",
+    "title": "Back door",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-205-surplus-goods"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-205-surplus-goods"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Back_door",
+    "sourceId": 206
+  },
+  {
+    "id": "q-175-bad-habit",
+    "title": "Bad habit",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-105-farming-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-105-farming-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Bad_habit",
+    "sourceId": 175
+  },
+  {
+    "id": "q-104-farming-part-1",
+    "title": "Farming - Part 1",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-82-gunsmith-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-82-gunsmith-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Farming_-_Part_1",
+    "sourceId": 104
+  },
+  {
+    "id": "q-105-farming-part-2",
+    "title": "Farming - Part 2",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-104-farming-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-104-farming-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Farming_-_Part_2",
+    "sourceId": 105
+  },
+  {
+    "id": "q-84-gunsmith-part-3",
+    "title": "Gunsmith - Part 3",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-82-gunsmith-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-82-gunsmith-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_3",
+    "sourceId": 84
+  },
+  {
+    "id": "q-103-insider",
+    "title": "Insider",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-98-signal-part-1",
+      "q-84-gunsmith-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-98-signal-part-1"
+      ],
+      [
+        "q-84-gunsmith-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Insider",
+    "sourceId": 103
+  },
+  {
+    "id": "q-102-scout",
+    "title": "Scout",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-99-signal-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-99-signal-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Scout",
+    "sourceId": 102
+  },
+  {
+    "id": "q-98-signal-part-1",
+    "title": "Signal - Part 1",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-83-gunsmith-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-83-gunsmith-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Signal_-_Part_1",
+    "sourceId": 98
+  },
+  {
+    "id": "q-99-signal-part-2",
+    "title": "Signal - Part 2",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-98-signal-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-98-signal-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Signal_-_Part_2",
+    "sourceId": 99
+  },
+  {
+    "id": "q-205-surplus-goods",
+    "title": "Surplus Goods",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-102-scout"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-102-scout"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Surplus_goods",
+    "sourceId": 205
+  },
+  {
+    "id": "q-110-a-shooter-born-in-heaven",
+    "title": "A Shooter Born in Heaven",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-106-farming-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-106-farming-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/A_Shooter_Born_in_Heaven",
+    "sourceId": 110
+  },
+  {
+    "id": "q-106-farming-part-3",
+    "title": "Farming - Part 3",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-105-farming-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-105-farming-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Farming_-_Part_3",
+    "sourceId": 106
+  },
+  {
+    "id": "q-107-farming-part-4",
+    "title": "Farming - Part 4",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-106-farming-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-106-farming-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Farming_-_Part_4",
+    "sourceId": 107
+  },
+  {
+    "id": "q-85-gunsmith-part-4",
+    "title": "Gunsmith - Part 4",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-84-gunsmith-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-84-gunsmith-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_4",
+    "sourceId": 85
+  },
+  {
+    "id": "q-100-signal-part-3",
+    "title": "Signal - Part 3",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-99-signal-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-99-signal-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Signal_-_Part_3",
+    "sourceId": 100
+  },
+  {
+    "id": "q-101-signal-part-4",
+    "title": "Signal - Part 4",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-100-signal-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-100-signal-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Signal_-_Part_4",
+    "sourceId": 101
+  },
+  {
+    "id": "q-230-corporate-secrets",
+    "title": "Corporate Secrets",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-106-farming-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-106-farming-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Corporate_Secrets",
+    "sourceId": 230
+  },
+  {
+    "id": "q-86-gunsmith-part-5",
+    "title": "Gunsmith - Part 5",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-85-gunsmith-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-85-gunsmith-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_5",
+    "sourceId": 86
+  },
+  {
+    "id": "q-87-gunsmith-part-6",
+    "title": "Gunsmith - Part 6",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 18,
+    "prerequisites": [
+      "q-86-gunsmith-part-5"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-86-gunsmith-part-5"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_6",
+    "sourceId": 87
+  },
+  {
+    "id": "q-88-gunsmith-part-7",
+    "title": "Gunsmith - Part 7",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 19,
+    "prerequisites": [
+      "q-87-gunsmith-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-87-gunsmith-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_7",
+    "sourceId": 88
+  },
+  {
+    "id": "q-89-gunsmith-part-8",
+    "title": "Gunsmith - Part 8",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 19,
+    "prerequisites": [
+      "q-88-gunsmith-part-7"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-88-gunsmith-part-7"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_8",
+    "sourceId": 89
+  },
+  {
+    "id": "q-91-gunsmith-part-10",
+    "title": "Gunsmith - Part 10",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-90-gunsmith-part-9"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-90-gunsmith-part-9"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_10",
+    "sourceId": 91
+  },
+  {
+    "id": "q-92-gunsmith-part-11",
+    "title": "Gunsmith - Part 11",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-91-gunsmith-part-10"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-91-gunsmith-part-10"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_11",
+    "sourceId": 92
+  },
+  {
+    "id": "q-90-gunsmith-part-9",
+    "title": "Gunsmith - Part 9",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-89-gunsmith-part-8"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-89-gunsmith-part-8"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_9",
+    "sourceId": 90
+  },
+  {
+    "id": "q-187-chemistry-closet",
+    "title": "Chemistry closet",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-184-anesthesia",
+      "q-185-colleagues-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-184-anesthesia"
+      ],
+      [
+        "q-185-colleagues-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemistry_closet",
+    "sourceId": 187
+  },
+  {
+    "id": "q-93-gunsmith-part-12",
+    "title": "Gunsmith - Part 12",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 23,
+    "prerequisites": [
+      "q-92-gunsmith-part-11"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-92-gunsmith-part-11"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_12",
+    "sourceId": 93
+  },
+  {
+    "id": "q-242-energy-crisis",
+    "title": "Energy Crisis",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Energy_Crisis",
+    "sourceId": 242
+  },
+  {
+    "id": "q-94-gunsmith-part-13",
+    "title": "Gunsmith - Part 13",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-93-gunsmith-part-12"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-93-gunsmith-part-12"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_13",
+    "sourceId": 94
+  },
+  {
+    "id": "q-95-gunsmith-part-14",
+    "title": "Gunsmith - Part 14",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-94-gunsmith-part-13"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-94-gunsmith-part-13"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_14",
+    "sourceId": 95
+  },
+  {
+    "id": "q-96-gunsmith-part-15",
+    "title": "Gunsmith - Part 15",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 29,
+    "prerequisites": [
+      "q-95-gunsmith-part-14"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-95-gunsmith-part-14"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_15",
+    "sourceId": 96
+  },
+  {
+    "id": "q-109-fertilizers",
+    "title": "Fertilizers",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-107-farming-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-107-farming-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Fertilizers",
+    "sourceId": 109
+  },
+  {
+    "id": "q-97-gunsmith-part-16",
+    "title": "Gunsmith - Part 16",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 35,
+    "prerequisites": [
+      "q-96-gunsmith-part-15"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-96-gunsmith-part-15"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_16",
+    "sourceId": 97
+  },
+  {
+    "id": "q-108-import",
+    "title": "Import",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 35,
+    "prerequisites": [
+      "q-107-farming-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-107-farming-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Import",
+    "sourceId": 108
+  },
+  {
+    "id": "q-80-psycho-sniper",
+    "title": "Psycho Sniper",
+    "trader": "Mechanic",
+    "kappaRequired": true,
+    "requiredLevel": 40,
+    "prerequisites": [
+      "q-79-wet-job-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-79-wet-job-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Psycho_Sniper",
+    "sourceId": 80
+  },
+  {
+    "id": "q-217-calibration",
+    "title": "Calibration",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 47,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Calibration",
+    "sourceId": 217
+  },
+  {
+    "id": "q-227-the-courier",
+    "title": "The Courier",
+    "trader": "Mechanic",
+    "kappaRequired": false,
+    "requiredLevel": 55,
+    "prerequisites": [
+      "q-217-calibration"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-217-calibration"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Courier",
+    "sourceId": 227
+  },
+  {
+    "id": "q-234-cargo-x-part-4",
+    "title": "Cargo X - Part 4",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-73-cargo-x-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-73-cargo-x-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_4",
+    "sourceId": 234
+  },
+  {
+    "id": "q-244-counteraction",
+    "title": "Counteraction",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-16-the-punisher-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-16-the-punisher-part-4"
+      ]
+    ],
+    "alternatives": [
+      "q-240-our-own-land"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Counteraction",
+    "sourceId": 244
+  },
+  {
+    "id": "q-243-overpopulation",
+    "title": "Overpopulation",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-64-spa-tour-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-64-spa-tour-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Overpopulation",
+    "sourceId": 243
+  },
+  {
+    "id": "q-239-revision-part-2",
+    "title": "Revision - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-60-eagle-eye"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-60-eagle-eye"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Part_2",
+    "sourceId": 239
+  },
+  {
+    "id": "q-57-fishing-gear",
+    "title": "Fishing Gear",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-47-friend-from-the-west-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-47-friend-from-the-west-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Fishing_Gear",
+    "sourceId": 57
+  },
+  {
+    "id": "q-59-scrap-metal",
+    "title": "Scrap Metal",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-58-tigr-safari"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-58-tigr-safari"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Scrap_Metal",
+    "sourceId": 59
+  },
+  {
+    "id": "q-58-tigr-safari",
+    "title": "Tigr Safari",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-57-fishing-gear"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-57-fishing-gear"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Tigr_Safari",
+    "sourceId": 58
+  },
+  {
+    "id": "q-208-classified-technologies",
+    "title": "Classified technologies",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-207-revision-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-207-revision-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Classified_Technologies",
+    "sourceId": 208
+  },
+  {
+    "id": "q-60-eagle-eye",
+    "title": "Eagle Eye",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-59-scrap-metal"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-59-scrap-metal"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Eagle_Eye",
+    "sourceId": 60
+  },
+  {
+    "id": "q-61-humanitarian-supplies",
+    "title": "Humanitarian Supplies",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-60-eagle-eye"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-60-eagle-eye"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Humanitarian_Supplies",
+    "sourceId": 61
+  },
+  {
+    "id": "q-207-revision-part-1",
+    "title": "Revision - Part 1",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-60-eagle-eye"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-60-eagle-eye"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Revision_-_Part_1",
+    "sourceId": 207
+  },
+  {
+    "id": "q-71-cargo-x-part-1",
+    "title": "Cargo X - Part 1",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-70-spa-tour-part-7"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-70-spa-tour-part-7"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_1",
+    "sourceId": 71
+  },
+  {
+    "id": "q-72-cargo-x-part-2",
+    "title": "Cargo X - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-71-cargo-x-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-71-cargo-x-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_2",
+    "sourceId": 72
+  },
+  {
+    "id": "q-73-cargo-x-part-3",
+    "title": "Cargo X - Part 3",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-72-cargo-x-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-72-cargo-x-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Cargo_X_-_Part_3",
+    "sourceId": 73
+  },
+  {
+    "id": "q-64-spa-tour-part-1",
+    "title": "Spa Tour - Part 1",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-61-humanitarian-supplies"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-61-humanitarian-supplies"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_1",
+    "sourceId": 64
+  },
+  {
+    "id": "q-65-spa-tour-part-2",
+    "title": "Spa Tour - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-64-spa-tour-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-64-spa-tour-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_2",
+    "sourceId": 65
+  },
+  {
+    "id": "q-66-spa-tour-part-3",
+    "title": "Spa Tour - Part 3",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-65-spa-tour-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-65-spa-tour-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_3",
+    "sourceId": 66
+  },
+  {
+    "id": "q-67-spa-tour-part-4",
+    "title": "Spa Tour - Part 4",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-66-spa-tour-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-66-spa-tour-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_4",
+    "sourceId": 67
+  },
+  {
+    "id": "q-68-spa-tour-part-5",
+    "title": "Spa Tour - Part 5",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-67-spa-tour-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-67-spa-tour-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_5",
+    "sourceId": 68
+  },
+  {
+    "id": "q-69-spa-tour-part-6",
+    "title": "Spa Tour - Part 6",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-68-spa-tour-part-5"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-68-spa-tour-part-5"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_6",
+    "sourceId": 69
+  },
+  {
+    "id": "q-70-spa-tour-part-7",
+    "title": "Spa Tour - Part 7",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-69-spa-tour-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-69-spa-tour-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_7",
+    "sourceId": 70
+  },
+  {
+    "id": "q-62-the-cult-part-1",
+    "title": "The Cult - Part 1",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-61-humanitarian-supplies"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-61-humanitarian-supplies"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Cult_-_Part_1",
+    "sourceId": 62
+  },
+  {
+    "id": "q-63-the-cult-part-2",
+    "title": "The Cult - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-62-the-cult-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-62-the-cult-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Cult_-_Part_2",
+    "sourceId": 63
+  },
+  {
+    "id": "q-174-mentor",
+    "title": "Mentor",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-77-wet-job-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-77-wet-job-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Mentor",
+    "sourceId": 174
+  },
+  {
+    "id": "q-74-wet-job-part-1",
+    "title": "Wet Job - Part 1",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-70-spa-tour-part-7"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-70-spa-tour-part-7"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_1",
+    "sourceId": 74
+  },
+  {
+    "id": "q-75-wet-job-part-2",
+    "title": "Wet Job - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-74-wet-job-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-74-wet-job-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_2",
+    "sourceId": 75
+  },
+  {
+    "id": "q-76-wet-job-part-3",
+    "title": "Wet Job - Part 3",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-75-wet-job-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-75-wet-job-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_3",
+    "sourceId": 76
+  },
+  {
+    "id": "q-77-wet-job-part-4",
+    "title": "Wet Job - Part 4",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-76-wet-job-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-76-wet-job-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_4",
+    "sourceId": 77
+  },
+  {
+    "id": "q-78-wet-job-part-5",
+    "title": "Wet Job - Part 5",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-77-wet-job-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-77-wet-job-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_5",
+    "sourceId": 78
+  },
+  {
+    "id": "q-79-wet-job-part-6",
+    "title": "Wet Job - Part 6",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 14,
+    "prerequisites": [
+      "q-78-wet-job-part-5"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-78-wet-job-part-5"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Wet_Job_-_Part_6",
+    "sourceId": 79
+  },
+  {
+    "id": "q-188-samples",
+    "title": "Samples",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-184-anesthesia"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-184-anesthesia"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Samples",
+    "sourceId": 188
+  },
+  {
+    "id": "q-189-terragroup-employee",
+    "title": "TerraGroup employee",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-188-samples",
+      "q-190-the-huntsman-path-sadist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-188-samples"
+      ],
+      [
+        "q-190-the-huntsman-path-sadist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_employee",
+    "sourceId": 189
+  },
+  {
+    "id": "q-49-lend-lease-part-2",
+    "title": "Lend lease - Part 2",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-48-lend-lease-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-48-lend-lease-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Lend_lease_-_Part_2",
+    "sourceId": 49
+  },
+  {
+    "id": "q-50-peacekeeping-mission",
+    "title": "Peacekeeping mission",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-49-lend-lease-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-49-lend-lease-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Peacekeeping_mission",
+    "sourceId": 50
+  },
+  {
+    "id": "q-81-the-guide",
+    "title": "The guide",
+    "trader": "Peacekeeper",
+    "kappaRequired": true,
+    "requiredLevel": 40,
+    "prerequisites": [
+      "q-79-wet-job-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-79-wet-job-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_guide",
+    "sourceId": 81
+  },
+  {
+    "id": "q-223-cleaner",
+    "title": "Cleaner",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 45,
+    "prerequisites": [
+      "q-81-the-guide"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-81-the-guide"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Cleaner",
+    "sourceId": 223
+  },
+  {
+    "id": "q-228-special-equipment",
+    "title": "Special Equipment",
+    "trader": "Peacekeeper",
+    "kappaRequired": false,
+    "requiredLevel": 60,
+    "prerequisites": [
+      "q-223-cleaner"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-223-cleaner"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Special_Equipment",
+    "sourceId": 228
+  },
+  {
+    "id": "q-232-easy-job-part-1",
+    "title": "Easy Job - Part 1",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-14-the-punisher-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-14-the-punisher-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Easy_Job_-_Part_1",
+    "sourceId": 232
+  },
+  {
+    "id": "q-233-easy-job-part-2",
+    "title": "Easy Job - Part 2",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-232-easy-job-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-232-easy-job-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Easy_Job_-_Part_2",
+    "sourceId": 233
+  },
+  {
+    "id": "q-240-our-own-land",
+    "title": "Our Own Land",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-16-the-punisher-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-16-the-punisher-part-4"
+      ]
+    ],
+    "alternatives": [
+      "q-244-counteraction"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Our_Own_Land",
+    "sourceId": 240
+  },
+  {
+    "id": "q-249-reconnaissance",
+    "title": "Reconnaissance",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-232-easy-job-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-232-easy-job-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Reconnaissance",
+    "sourceId": 249
+  },
+  {
+    "id": "q-0-debut",
     "title": "Debut",
     "trader": "Prapor",
-    "kappaRequired": true,
+    "kappaRequired": false,
     "requiredLevel": 1,
     "prerequisites": [],
+    "prerequisiteGroups": [],
     "alternatives": [],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Debut"
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Debut",
+    "sourceId": 0
   },
   {
-    "id": "prapor-checking",
+    "id": "q-1-checking",
     "title": "Checking",
     "trader": "Prapor",
-    "kappaRequired": true,
+    "kappaRequired": false,
     "requiredLevel": 2,
-    "prerequisites": ["prapor-debut"],
+    "prerequisites": [
+      "q-0-debut"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-0-debut"
+      ]
+    ],
     "alternatives": [],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Checking"
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Checking",
+    "sourceId": 1
   },
   {
-    "id": "prapor-shaking-up-teller",
-    "title": "Shaking up the Teller",
+    "id": "q-2-shootout-picnic",
+    "title": "Shootout picnic",
     "trader": "Prapor",
     "kappaRequired": true,
-    "requiredLevel": 2,
-    "prerequisites": ["prapor-checking"],
-    "alternatives": [],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shaking_up_the_Teller"
-  },
-  {
-    "id": "therapist-shortage",
-    "title": "Shortage",
-    "trader": "Therapist",
-    "kappaRequired": true,
-    "requiredLevel": 1,
-    "prerequisites": [],
+    "requiredLevel": 3,
+    "prerequisites": [
+      "q-1-checking"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-1-checking"
+      ]
+    ],
     "alternatives": [],
     "map": null,
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shortage"
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shootout_picnic",
+    "sourceId": 2
   },
   {
-    "id": "therapist-sanitary-standards-1",
-    "title": "Sanitary Standards - Part 1",
-    "trader": "Therapist",
-    "kappaRequired": true,
-    "requiredLevel": 4,
-    "prerequisites": ["therapist-shortage"],
+    "id": "q-4-bp-depot",
+    "title": "BP depot",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 5,
+    "prerequisites": [
+      "q-3-delivery-from-the-past"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-3-delivery-from-the-past"
+      ]
+    ],
     "alternatives": [],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_1"
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/BP_depot",
+    "sourceId": 4
   },
   {
-    "id": "skier-supplier",
-    "title": "Supplier",
-    "trader": "Skier",
+    "id": "q-3-delivery-from-the-past",
+    "title": "Delivery from the past",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 5,
+    "prerequisites": [
+      "q-1-checking"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-1-checking"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Delivery_from_the_past",
+    "sourceId": 3
+  },
+  {
+    "id": "q-193-search-mission",
+    "title": "Search mission",
+    "trader": "Prapor",
     "kappaRequired": true,
     "requiredLevel": 5,
-    "prerequisites": [],
+    "prerequisites": [
+      "q-0-debut"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-0-debut"
+      ]
+    ],
     "alternatives": [],
     "map": null,
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Supplier"
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Search_mission",
+    "sourceId": 193
   },
   {
-    "id": "skier-stirrup",
-    "title": "Stirrup",
+    "id": "q-5-bad-rep-evidence",
+    "title": "Bad rep evidence",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 6,
+    "prerequisites": [
+      "q-4-bp-depot"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-4-bp-depot"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Bad_rep_evidence",
+    "sourceId": 5
+  },
+  {
+    "id": "q-6-ice-cream-cones",
+    "title": "Ice cream cones",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 9,
+    "prerequisites": [
+      "q-5-bad-rep-evidence"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-5-bad-rep-evidence"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Ice_cream_cones",
+    "sourceId": 6
+  },
+  {
+    "id": "q-211-documents",
+    "title": "Documents",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-210-no-place-for-renegades"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-210-no-place-for-renegades"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Documents",
+    "sourceId": 211
+  },
+  {
+    "id": "q-171-polikhim-hobo",
+    "title": "Polikhim hobo",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-39-golden-swag"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-39-golden-swag"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Polikhim_hobo",
+    "sourceId": 171
+  },
+  {
+    "id": "q-7-postman-pat",
+    "title": "Postman Pat",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-6-ice-cream-cones"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-6-ice-cream-cones"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_1",
+    "sourceId": 7
+  },
+  {
+    "id": "q-8-shaking-up-teller",
+    "title": "Shaking up teller",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-6-ice-cream-cones"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-6-ice-cream-cones"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shaking_up_the_Teller",
+    "sourceId": 8
+  },
+  {
+    "id": "q-191-the-bunker-part-1",
+    "title": "The bunker - Part 1",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-4-bp-depot"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-4-bp-depot"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_bunker_-_Part_1",
+    "sourceId": 191
+  },
+  {
+    "id": "q-192-the-bunker-part-2",
+    "title": "The bunker - Part 2",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-191-the-bunker-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-191-the-bunker-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_bunker_-_Part_2",
+    "sourceId": 192
+  },
+  {
+    "id": "q-180-big-customer",
+    "title": "Big customer",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-42-chemical-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-42-chemical-part-3"
+      ]
+    ],
+    "alternatives": [
+      "q-43-chemical-part-4",
+      "q-179-out-of-curiosity"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Big_customer",
+    "sourceId": 180
+  },
+  {
+    "id": "q-199-no-offence",
+    "title": "No offence",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-43-chemical-part-4",
+      "q-179-out-of-curiosity"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-43-chemical-part-4",
+        "q-179-out-of-curiosity"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/No_offence",
+    "sourceId": 199
+  },
+  {
+    "id": "q-210-no-place-for-renegades",
+    "title": "No Place for Renegades",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 12,
+    "prerequisites": [
+      "q-6-ice-cream-cones",
+      "q-192-the-bunker-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-6-ice-cream-cones"
+      ],
+      [
+        "q-192-the-bunker-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/No_Place_for_Renegades",
+    "sourceId": 210
+  },
+  {
+    "id": "q-13-the-punisher-part-1",
+    "title": "The Punisher - Part 1",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-8-shaking-up-teller"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-8-shaking-up-teller"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
+    "sourceId": 13
+  },
+  {
+    "id": "q-14-the-punisher-part-2",
+    "title": "The Punisher - Part 2",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 18,
+    "prerequisites": [
+      "q-13-the-punisher-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-13-the-punisher-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_2",
+    "sourceId": 14
+  },
+  {
+    "id": "q-15-the-punisher-part-3",
+    "title": "The Punisher - Part 3",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 19,
+    "prerequisites": [
+      "q-14-the-punisher-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-14-the-punisher-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_3",
+    "sourceId": 15
+  },
+  {
+    "id": "q-16-the-punisher-part-4",
+    "title": "The Punisher - Part 4",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-15-the-punisher-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-15-the-punisher-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_4",
+    "sourceId": 16
+  },
+  {
+    "id": "q-17-the-punisher-part-5",
+    "title": "The Punisher - Part 5",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-16-the-punisher-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-16-the-punisher-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_5",
+    "sourceId": 17
+  },
+  {
+    "id": "q-184-anesthesia",
+    "title": "Anesthesia",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-8-shaking-up-teller"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-8-shaking-up-teller"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Anesthesia",
+    "sourceId": 184
+  },
+  {
+    "id": "q-18-the-punisher-part-6",
+    "title": "The Punisher - Part 6",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-17-the-punisher-part-5"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-17-the-punisher-part-5"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_6",
+    "sourceId": 18
+  },
+  {
+    "id": "q-172-regulated-materials",
+    "title": "Regulated materials",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-171-polikhim-hobo"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-171-polikhim-hobo"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Regulated_materials",
+    "sourceId": 172
+  },
+  {
+    "id": "q-10-grenadier",
+    "title": "Grenadier",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-8-shaking-up-teller"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-8-shaking-up-teller"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Grenadier",
+    "sourceId": 10
+  },
+  {
+    "id": "q-11-insomnia",
+    "title": "Insomnia",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-10-grenadier"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-10-grenadier"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Insomnia",
+    "sourceId": 11
+  },
+  {
+    "id": "q-12-test-drive-pt-1",
+    "title": "Test drive. Pt. 1",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-10-grenadier"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-10-grenadier"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Test_drive_-_Part_1",
+    "sourceId": 12
+  },
+  {
+    "id": "q-9-perfect-mediator",
+    "title": "Perfect mediator",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 35,
+    "prerequisites": [
+      "q-8-shaking-up-teller"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-8-shaking-up-teller"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Perfect_mediator",
+    "sourceId": 9
+  },
+  {
+    "id": "q-215-capturing-outposts",
+    "title": "Capturing Outposts",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 42,
+    "prerequisites": [
+      "q-18-the-punisher-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-18-the-punisher-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Capturing_Outposts",
+    "sourceId": 215
+  },
+  {
+    "id": "q-216-intimidator",
+    "title": "Intimidator",
+    "trader": "Prapor",
+    "kappaRequired": true,
+    "requiredLevel": 45,
+    "prerequisites": [
+      "q-18-the-punisher-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-18-the-punisher-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Intimidator",
+    "sourceId": 216
+  },
+  {
+    "id": "q-221-escort",
+    "title": "Escort",
+    "trader": "Prapor",
+    "kappaRequired": false,
+    "requiredLevel": 60,
+    "prerequisites": [
+      "q-18-the-punisher-part-6"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-18-the-punisher-part-6"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Escort",
+    "sourceId": 221
+  },
+  {
+    "id": "q-236-communication-difficulties",
+    "title": "Communication Difficulties",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-122-make-ultra-great-again"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-122-make-ultra-great-again"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Communication_Difficulties",
+    "sourceId": 236
+  },
+  {
+    "id": "q-204-a-fuel-matter",
+    "title": "A fuel matter",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-111-only-business"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-111-only-business"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/A_Fuel_Matter",
+    "sourceId": 204
+  },
+  {
+    "id": "q-112-big-sale",
+    "title": "Big sale",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-111-only-business"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-111-only-business"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Big_sale",
+    "sourceId": 112
+  },
+  {
+    "id": "q-115-database-part-1",
+    "title": "Database - Part 1",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-112-big-sale"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-112-big-sale"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Database_-_Part_1",
+    "sourceId": 115
+  },
+  {
+    "id": "q-116-database-part-2",
+    "title": "Database - Part 2",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-115-database-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-115-database-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Database_-_Part_2",
+    "sourceId": 116
+  },
+  {
+    "id": "q-114-dressed-to-kill",
+    "title": "Dressed to kill",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-113-the-blood-of-war-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-113-the-blood-of-war-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Dressed_to_kill",
+    "sourceId": 114
+  },
+  {
+    "id": "q-117-gratitude",
+    "title": "Gratitude",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-116-database-part-2",
+      "q-114-dressed-to-kill"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-116-database-part-2"
+      ],
+      [
+        "q-114-dressed-to-kill"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gratitude",
+    "sourceId": 117
+  },
+  {
+    "id": "q-209-inventory-check",
+    "title": "Inventory check",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-204-a-fuel-matter"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-204-a-fuel-matter"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Inventory_check",
+    "sourceId": 209
+  },
+  {
+    "id": "q-122-make-ultra-great-again",
+    "title": "Make ULTRA Great Again",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-111-only-business"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-111-only-business"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Make_ULTRA_Great_Again",
+    "sourceId": 122
+  },
+  {
+    "id": "q-111-only-business",
+    "title": "Only business",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Only_business",
+    "sourceId": 111
+  },
+  {
+    "id": "q-113-the-blood-of-war-part-1",
+    "title": "The Blood of War - Part 1",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 15,
+    "prerequisites": [
+      "q-112-big-sale"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-112-big-sale"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_1",
+    "sourceId": 113
+  },
+  {
+    "id": "q-130-the-blood-of-war-part-2",
+    "title": "The Blood of War - Part 2",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 23,
+    "prerequisites": [
+      "q-124-sew-it-good-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-124-sew-it-good-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_2",
+    "sourceId": 130
+  },
+  {
+    "id": "q-123-minibus",
+    "title": "Minibus",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 24,
+    "prerequisites": [
+      "q-116-database-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-116-database-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Minibus",
+    "sourceId": 123
+  },
+  {
+    "id": "q-128-charisma-brings-success",
+    "title": "Charisma brings success",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-127-sew-it-good-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-127-sew-it-good-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Charisma_brings_success",
+    "sourceId": 128
+  },
+  {
+    "id": "q-129-no-fuss-needed",
+    "title": "No fuss needed",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-176-the-key-to-success"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-176-the-key-to-success"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/No_fuss_needed",
+    "sourceId": 129
+  },
+  {
+    "id": "q-124-sew-it-good-part-1",
+    "title": "Sew it good - Part 1",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-116-database-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-116-database-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sew_it_good_-_Part_1",
+    "sourceId": 124
+  },
+  {
+    "id": "q-125-sew-it-good-part-2",
+    "title": "Sew it good - Part 2",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-124-sew-it-good-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-124-sew-it-good-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sew_it_good_-_Part_2",
+    "sourceId": 125
+  },
+  {
+    "id": "q-126-sew-it-good-part-3",
+    "title": "Sew it good - Part 3",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-125-sew-it-good-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-125-sew-it-good-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sew_it_good_-_Part_3",
+    "sourceId": 126
+  },
+  {
+    "id": "q-127-sew-it-good-part-4",
+    "title": "Sew it good - Part 4",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-126-sew-it-good-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-126-sew-it-good-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sew_it_good_-_Part_4",
+    "sourceId": 127
+  },
+  {
+    "id": "q-176-the-key-to-success",
+    "title": "The key to success",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 26,
+    "prerequisites": [
+      "q-125-sew-it-good-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-125-sew-it-good-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_key_to_success",
+    "sourceId": 176
+  },
+  {
+    "id": "q-194-the-stylish-one",
+    "title": "The stylish one",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 26,
+    "prerequisites": [
+      "q-176-the-key-to-success"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-176-the-key-to-success"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_stylish_one",
+    "sourceId": 194
+  },
+  {
+    "id": "q-132-living-high-is-not-a-crime-part-1",
+    "title": "Living high is not a crime - Part 1",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-126-sew-it-good-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-126-sew-it-good-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_1",
+    "sourceId": 132
+  },
+  {
+    "id": "q-133-living-high-is-not-a-crime-part-2",
+    "title": "Living high is not a crime - Part 2",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-131-the-blood-of-war-part-3",
+      "q-132-living-high-is-not-a-crime-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-131-the-blood-of-war-part-3"
+      ],
+      [
+        "q-132-living-high-is-not-a-crime-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Living_High_is_Not_a_Crime_-_Part_2",
+    "sourceId": 133
+  },
+  {
+    "id": "q-120-hot-delivery",
+    "title": "Hot Delivery",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 29,
+    "prerequisites": [
+      "q-117-gratitude"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-117-gratitude"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Hot_delivery",
+    "sourceId": 120
+  },
+  {
+    "id": "q-121-scavenger",
+    "title": "Scavenger",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 29,
+    "prerequisites": [
+      "q-120-hot-delivery"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-120-hot-delivery"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Scavenger",
+    "sourceId": 121
+  },
+  {
+    "id": "q-118-sales-night",
+    "title": "Sales Night",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-117-gratitude"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-117-gratitude"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sales_Night",
+    "sourceId": 118
+  },
+  {
+    "id": "q-131-the-blood-of-war-part-3",
+    "title": "The Blood of War - Part 3",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-130-the-blood-of-war-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-130-the-blood-of-war-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Blood_of_War_-_Part_3",
+    "sourceId": 131
+  },
+  {
+    "id": "q-119-supervisor",
+    "title": "Supervisor",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 40,
+    "prerequisites": [
+      "q-118-sales-night"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-118-sales-night"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Supervisor",
+    "sourceId": 119
+  },
+  {
+    "id": "q-182-textile-part-1",
+    "title": "Textile - Part 1",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 42,
+    "prerequisites": [
+      "q-127-sew-it-good-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-127-sew-it-good-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_1",
+    "sourceId": 182
+  },
+  {
+    "id": "q-183-textile-part-2",
+    "title": "Textile - Part 2",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 42,
+    "prerequisites": [
+      "q-182-textile-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-182-textile-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Textile_-_Part_2",
+    "sourceId": 183
+  },
+  {
+    "id": "q-224-long-line",
+    "title": "Long Line",
+    "trader": "Ragman",
+    "kappaRequired": false,
+    "requiredLevel": 45,
+    "prerequisites": [
+      "q-119-supervisor"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-119-supervisor"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Long_Line",
+    "sourceId": 224
+  },
+  {
+    "id": "q-226-booze",
+    "title": "Booze",
+    "trader": "Ragman",
+    "kappaRequired": true,
+    "requiredLevel": 50,
+    "prerequisites": [
+      "q-224-long-line"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-224-long-line"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Booze",
+    "sourceId": 226
+  },
+  {
+    "id": "q-237-missing-cargo",
+    "title": "Missing Cargo",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-229-long-road"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-229-long-road"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Missing_Cargo",
+    "sourceId": 237
+  },
+  {
+    "id": "q-246-top-secret",
+    "title": "Top Secret",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-47-friend-from-the-west-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-47-friend-from-the-west-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Top_Secret",
+    "sourceId": 246
+  },
+  {
+    "id": "q-36-supplier",
+    "title": "Supplier",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 5,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Supplier",
+    "sourceId": 36
+  },
+  {
+    "id": "q-37-the-extortionist",
+    "title": "The Extortionist",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 7,
+    "prerequisites": [
+      "q-36-supplier"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-36-supplier"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/The_Extortionist",
+    "sourceId": 37
+  },
+  {
+    "id": "q-39-golden-swag",
+    "title": "Golden swag",
     "trader": "Skier",
     "kappaRequired": false,
     "requiredLevel": 8,
-    "prerequisites": ["skier-supplier"],
+    "prerequisites": [
+      "q-38-what-s-on-the-flash-drive"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-38-what-s-on-the-flash-drive"
+      ]
+    ],
     "alternatives": [],
     "map": null,
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Stirrup"
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Golden_Swag",
+    "sourceId": 39
   },
   {
-    "id": "skier-chemical-4",
-    "title": "Chemical - Part 4",
+    "id": "q-173-stirrup",
+    "title": "Stirrup",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 8,
+    "prerequisites": [
+      "q-37-the-extortionist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-37-the-extortionist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Stirrup",
+    "sourceId": 173
+  },
+  {
+    "id": "q-38-what-s-on-the-flash-drive",
+    "title": "What's on the flash drive?",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 8,
+    "prerequisites": [
+      "q-37-the-extortionist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-37-the-extortionist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/What%27s_on_the_flash_drive%3F",
+    "sourceId": 38
+  },
+  {
+    "id": "q-46-friend-from-the-west-part-1",
+    "title": "Friend from the West - Part 1",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 9,
+    "prerequisites": [
+      "q-39-golden-swag"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-39-golden-swag"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Friend_from_the_West_-_Part_1",
+    "sourceId": 46
+  },
+  {
+    "id": "q-47-friend-from-the-west-part-2",
+    "title": "Friend from the West - Part 2",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 9,
+    "prerequisites": [
+      "q-46-friend-from-the-west-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-46-friend-from-the-west-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Friend_from_the_West_-_Part_2",
+    "sourceId": 47
+  },
+  {
+    "id": "q-40-chemical-part-1",
+    "title": "Chemical - Part 1",
     "trader": "Skier",
     "kappaRequired": false,
     "requiredLevel": 10,
-    "prerequisites": ["skier-stirrup"],
-    "alternatives": ["prapor-big-customer", "therapist-out-of-curiosity"],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_4"
+    "prerequisites": [
+      "q-39-golden-swag"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-39-golden-swag"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_1",
+    "sourceId": 40
   },
   {
-    "id": "prapor-big-customer",
-    "title": "Big Customer",
-    "trader": "Prapor",
+    "id": "q-41-chemical-part-2",
+    "title": "Chemical - Part 2",
+    "trader": "Skier",
     "kappaRequired": false,
     "requiredLevel": 10,
-    "prerequisites": ["skier-stirrup"],
-    "alternatives": ["skier-chemical-4", "therapist-out-of-curiosity"],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Big_Customer"
+    "prerequisites": [
+      "q-40-chemical-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-40-chemical-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_2",
+    "sourceId": 41
   },
   {
-    "id": "therapist-out-of-curiosity",
-    "title": "Out of Curiosity",
+    "id": "q-42-chemical-part-3",
+    "title": "Chemical - Part 3",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-41-chemical-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-41-chemical-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_3",
+    "sourceId": 42
+  },
+  {
+    "id": "q-43-chemical-part-4",
+    "title": "Chemical - Part 4",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-42-chemical-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-42-chemical-part-3"
+      ]
+    ],
+    "alternatives": [
+      "q-179-out-of-curiosity",
+      "q-180-big-customer"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_4",
+    "sourceId": 43
+  },
+  {
+    "id": "q-201-loyalty-buyout",
+    "title": "Loyalty buyout",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-179-out-of-curiosity",
+      "q-180-big-customer"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-179-out-of-curiosity",
+        "q-180-big-customer"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Loyalty_buyout",
+    "sourceId": 201
+  },
+  {
+    "id": "q-212-safe-corridor",
+    "title": "Safe corridor",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-43-chemical-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-43-chemical-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Safe_corridor",
+    "sourceId": 212
+  },
+  {
+    "id": "q-25-kind-of-sabotage",
+    "title": "Kind of sabotage",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 13,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [
+      "q-24-supply-plans"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Kind_of_sabotage",
+    "sourceId": 25
+  },
+  {
+    "id": "q-229-long-road",
+    "title": "Long Road",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-47-friend-from-the-west-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-47-friend-from-the-west-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Long_Road",
+    "sourceId": 229
+  },
+  {
+    "id": "q-186-rigged-game",
+    "title": "Rigged game",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-184-anesthesia"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-184-anesthesia"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Rigged_game",
+    "sourceId": 186
+  },
+  {
+    "id": "q-44-vitamins-part-1",
+    "title": "Vitamins - Part 1",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 22,
+    "prerequisites": [
+      "q-42-chemical-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-42-chemical-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Vitamins_-_Part_1",
+    "sourceId": 44
+  },
+  {
+    "id": "q-45-vitamins-part-2",
+    "title": "Vitamins - Part 2",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 22,
+    "prerequisites": [
+      "q-44-vitamins-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-44-vitamins-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Vitamins_-_Part_2",
+    "sourceId": 45
+  },
+  {
+    "id": "q-51-informed-means-armed",
+    "title": "Informed means armed",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 24,
+    "prerequisites": [
+      "q-47-friend-from-the-west-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-47-friend-from-the-west-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Informed_means_armed",
+    "sourceId": 51
+  },
+  {
+    "id": "q-48-lend-lease-part-1",
+    "title": "Lend lease - Part 1",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 25,
+    "prerequisites": [
+      "q-47-friend-from-the-west-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-47-friend-from-the-west-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Lend_lease_-_Part_1",
+    "sourceId": 48
+  },
+  {
+    "id": "q-55-bullshit",
+    "title": "Bullshit",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-52-chumming"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-52-chumming"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Bullshit",
+    "sourceId": 55
+  },
+  {
+    "id": "q-52-chumming",
+    "title": "Chumming",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-51-informed-means-armed"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-51-informed-means-armed"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Chumming",
+    "sourceId": 52
+  },
+  {
+    "id": "q-56-setup",
+    "title": "Setup",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-55-bullshit"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-55-bullshit"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Setup",
+    "sourceId": 56
+  },
+  {
+    "id": "q-53-silent-caliber",
+    "title": "Silent caliber",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 27,
+    "prerequisites": [
+      "q-52-chumming"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-52-chumming"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Silent_caliber",
+    "sourceId": 53
+  },
+  {
+    "id": "q-54-flint",
+    "title": "Flint",
+    "trader": "Skier",
+    "kappaRequired": true,
+    "requiredLevel": 35,
+    "prerequisites": [
+      "q-52-chumming"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-52-chumming"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Flint",
+    "sourceId": 54
+  },
+  {
+    "id": "q-218-night-sweep",
+    "title": "Night Sweep",
+    "trader": "Skier",
+    "kappaRequired": false,
+    "requiredLevel": 50,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Night_Sweep",
+    "sourceId": 218
+  },
+  {
+    "id": "q-197-an-apple-a-day-keeps-the-doctor-away",
+    "title": "An apple a day - keeps the doctor away",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-30-health-care-privacy-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-30-health-care-privacy-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/An_Apple_a_Day_Keeps_the_Doctor_Away",
+    "sourceId": 197
+  },
+  {
+    "id": "q-248-drug-trafficking",
+    "title": "Drug Trafficking",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-241-lost-contact"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-241-lost-contact"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Drug_Trafficking",
+    "sourceId": 248
+  },
+  {
+    "id": "q-241-lost-contact",
+    "title": "Lost Contact",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": null,
+    "prerequisites": [
+      "q-29-health-care-privacy-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-29-health-care-privacy-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Lost_Contact",
+    "sourceId": 241
+  },
+  {
+    "id": "q-19-shortage",
+    "title": "Shortage",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 1,
+    "prerequisites": [],
+    "prerequisiteGroups": [],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Shortage",
+    "sourceId": 19
+  },
+  {
+    "id": "q-20-sanitary-standards-part-1",
+    "title": "Sanitary Standards - Part 1",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 4,
+    "prerequisites": [
+      "q-19-shortage"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-19-shortage"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_1",
+    "sourceId": 20
+  },
+  {
+    "id": "q-169-operation-aquarius-part-1",
+    "title": "Operation Aquarius - Part 1",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 6,
+    "prerequisites": [
+      "q-19-shortage"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-19-shortage"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius_-_Part_1",
+    "sourceId": 169
+  },
+  {
+    "id": "q-170-operation-aquarius-part-2",
+    "title": "Operation Aquarius - Part 2",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 6,
+    "prerequisites": [
+      "q-169-operation-aquarius-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-169-operation-aquarius-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius_-_Part_2",
+    "sourceId": 170
+  },
+  {
+    "id": "q-22-painkiller",
+    "title": "Painkiller",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 8,
+    "prerequisites": [
+      "q-21-sanitary-standards-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-21-sanitary-standards-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Painkiller",
+    "sourceId": 22
+  },
+  {
+    "id": "q-21-sanitary-standards-part-2",
+    "title": "Sanitary Standards - Part 2",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 8,
+    "prerequisites": [
+      "q-20-sanitary-standards-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-20-sanitary-standards-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_2",
+    "sourceId": 21
+  },
+  {
+    "id": "q-27-car-repair",
+    "title": "Car repair",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Car_repair",
+    "sourceId": 27
+  },
+  {
+    "id": "q-203-disease-history",
+    "title": "Disease history",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Disease_history",
+    "sourceId": 203
+  },
+  {
+    "id": "q-26-general-wares",
+    "title": "General wares",
     "trader": "Therapist",
     "kappaRequired": false,
     "requiredLevel": 10,
-    "prerequisites": ["skier-stirrup"],
-    "alternatives": ["skier-chemical-4", "prapor-big-customer"],
-    "map": "Customs",
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Out_of_Curiosity"
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/General_wares",
+    "sourceId": 26
   },
   {
-    "id": "mechanic-gunsmith-1",
-    "title": "Gunsmith - Part 1",
-    "trader": "Mechanic",
+    "id": "q-29-health-care-privacy-part-2",
+    "title": "Health Care Privacy - Part 2",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-28-health-care-privacy-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-28-health-care-privacy-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_2",
+    "sourceId": 29
+  },
+  {
+    "id": "q-30-health-care-privacy-part-3",
+    "title": "Health Care Privacy - Part 3",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-29-health-care-privacy-part-2"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-29-health-care-privacy-part-2"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_3",
+    "sourceId": 30
+  },
+  {
+    "id": "q-31-health-care-privacy-part-4",
+    "title": "Health Care Privacy - Part 4",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-30-health-care-privacy-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-30-health-care-privacy-part-3"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_4",
+    "sourceId": 31
+  },
+  {
+    "id": "q-32-health-care-privacy-part-5",
+    "title": "Health Care Privacy - Part 5",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-31-health-care-privacy-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-31-health-care-privacy-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_5",
+    "sourceId": 32
+  },
+  {
+    "id": "q-202-hippocratic-oath",
+    "title": "Hippocratic Oath",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-173-stirrup",
+      "q-27-car-repair"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-173-stirrup"
+      ],
+      [
+        "q-27-car-repair"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Hippocratic_Oath",
+    "sourceId": 202
+  },
+  {
+    "id": "q-23-pharmacist",
+    "title": "Pharmacist",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-22-painkiller"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-22-painkiller"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Pharmacist",
+    "sourceId": 23
+  },
+  {
+    "id": "q-178-postman-pat-part-2",
+    "title": "Postman Pat - Part 2",
+    "trader": "Therapist",
     "kappaRequired": true,
-    "requiredLevel": 2,
+    "requiredLevel": 10,
+    "prerequisites": [
+      "q-6-ice-cream-cones"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-6-ice-cream-cones"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
+    "sourceId": 178
+  },
+  {
+    "id": "q-179-out-of-curiosity",
+    "title": "Out of curiosity",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-42-chemical-part-3"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-42-chemical-part-3"
+      ]
+    ],
+    "alternatives": [
+      "q-43-chemical-part-4",
+      "q-180-big-customer"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Out_of_curiosity",
+    "sourceId": 179
+  },
+  {
+    "id": "q-200-trust-regain",
+    "title": "Trust regain",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 11,
+    "prerequisites": [
+      "q-43-chemical-part-4",
+      "q-180-big-customer"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-43-chemical-part-4",
+        "q-180-big-customer"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Trust_regain",
+    "sourceId": 200
+  },
+  {
+    "id": "q-24-supply-plans",
+    "title": "Supply plans",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 13,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [
+      "q-25-kind-of-sabotage"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Supply_plans",
+    "sourceId": 24
+  },
+  {
+    "id": "q-231-seaside-vacation",
+    "title": "Seaside Vacation",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 17,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Seaside_Vacation",
+    "sourceId": 231
+  },
+  {
+    "id": "q-28-health-care-privacy-part-1",
+    "title": "Health Care Privacy - Part 1",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 20,
+    "prerequisites": [
+      "q-23-pharmacist"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-23-pharmacist"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Health_Care_Privacy_-_Part_1",
+    "sourceId": 28
+  },
+  {
+    "id": "q-185-colleagues-part-1",
+    "title": "Colleagues - Part 1",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-26-general-wares"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-26-general-wares"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Colleagues_-_Part_1",
+    "sourceId": 185
+  },
+  {
+    "id": "q-152-colleagues-part-2",
+    "title": "Colleagues - Part 2",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-185-colleagues-part-1"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-185-colleagues-part-1"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Colleagues_-_Part_2",
+    "sourceId": 152
+  },
+  {
+    "id": "q-153-colleagues-part-3",
+    "title": "Colleagues - Part 3",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 21,
+    "prerequisites": [
+      "q-152-colleagues-part-2",
+      "q-186-rigged-game",
+      "q-187-chemistry-closet"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-152-colleagues-part-2"
+      ],
+      [
+        "q-186-rigged-game"
+      ],
+      [
+        "q-187-chemistry-closet"
+      ]
+    ],
+    "alternatives": [
+      "q-190-the-huntsman-path-sadist"
+    ],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Colleagues_-_Part_3",
+    "sourceId": 153
+  },
+  {
+    "id": "q-35-athlete",
+    "title": "Athlete",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-31-health-care-privacy-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-31-health-care-privacy-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Athlete",
+    "sourceId": 35
+  },
+  {
+    "id": "q-33-decontamination-service",
+    "title": "Decontamination Service",
+    "trader": "Therapist",
+    "kappaRequired": true,
+    "requiredLevel": 30,
+    "prerequisites": [
+      "q-32-health-care-privacy-part-5",
+      "q-34-private-clinic"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-32-health-care-privacy-part-5"
+      ],
+      [
+        "q-34-private-clinic"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Decontamination_service",
+    "sourceId": 33
+  },
+  {
+    "id": "q-34-private-clinic",
+    "title": "Private clinic",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 35,
+    "prerequisites": [
+      "q-31-health-care-privacy-part-4"
+    ],
+    "prerequisiteGroups": [
+      [
+        "q-31-health-care-privacy-part-4"
+      ]
+    ],
+    "alternatives": [],
+    "map": null,
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Private_clinic",
+    "sourceId": 34
+  },
+  {
+    "id": "q-220-crisis",
+    "title": "Crisis",
+    "trader": "Therapist",
+    "kappaRequired": false,
+    "requiredLevel": 48,
     "prerequisites": [],
+    "prerequisiteGroups": [],
     "alternatives": [],
     "map": null,
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_1"
-  },
-  {
-    "id": "mechanic-gunsmith-2",
-    "title": "Gunsmith - Part 2",
-    "trader": "Mechanic",
-    "kappaRequired": true,
-    "requiredLevel": 5,
-    "prerequisites": ["mechanic-gunsmith-1"],
-    "alternatives": [],
-    "map": null,
-    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Part_2"
+    "wikiUrl": "https://escapefromtarkov.fandom.com/wiki/Crisis",
+    "sourceId": 220
   }
 ]

@@ -221,6 +221,7 @@ function QuestRow({
   onStatusChange: (questId: string, status: QuestStatus) => void;
 }) {
   const blockedByPrerequisites = quest.missingPrerequisites.length > 0 && quest.status !== "completed";
+  const hasAlternatives = quest.alternatives.length > 0;
 
   return (
     <article
@@ -232,8 +233,10 @@ function QuestRow({
           <h3>{quest.title}</h3>
           <p>
             {quest.trader}
+            {typeof quest.requiredLevel === "number" ? ` | Level ${quest.requiredLevel}` : ""}
             {quest.kappaRequired ? " | Kappa" : ""}
-            {blockedByPrerequisites ? ` | Missing ${quest.missingPrerequisites.length} prerequisite(s)` : ""}
+            {blockedByPrerequisites ? ` | Missing ${quest.missingPrerequisiteGroups.length} prerequisite group(s)` : ""}
+            {hasAlternatives ? ` | ${quest.alternatives.length} alternative(s)` : ""}
           </p>
         </div>
         <select value={quest.status} onChange={(event) => onStatusChange(quest.id, event.target.value as QuestStatus)}>
