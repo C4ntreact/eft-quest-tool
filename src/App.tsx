@@ -8,9 +8,10 @@ import {
   createInitialProgress,
   loadProgress,
   normalizeProgress,
-  parseProgressImport,
   saveProgress,
 } from "./utils/progress";
+import type { ImportCandidate, ImportPreview } from "./utils/progressImport";
+import { applyImportPreview, parseImportPreviewJson } from "./utils/progressImport";
 import { validateProgress, validateQuestData } from "./utils/validation";
 
 const quests = questsData as Quest[];
@@ -43,6 +44,7 @@ function App() {
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress(quests));
   const [filters, setFilters] = useState<Filters>(initialFilters);
   const [importMessage, setImportMessage] = useState<string>("");
+  const [importPreview, setImportPreview] = useState<ImportPreview | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -84,10 +86,27 @@ function App() {
       return;
     }
 
-    const result = parseProgressImport(await file.text(), quests);
-    setImportMessage(result.ok ? "Progress imported." : `Import completed with issues: ${result.errors.join(" ")}`);
-    setProgress(result.progress);
+    const preview = parseImportPreviewJson(await file.text(), quests);
+    setImportPreview(preview);
+    setImportMessage(
+      `Import preview ready: ${preview.appliedCandidates.length} matched, ${preview.unmatched.length} unmatched, ${preview.ambiguous.length} ambiguous, ${preview.invalid.length} invalid.`,
+    );
     event.target.value = "";
+  }
+
+  function applyImport() {
+    if (!importPreview) {
+      return;
+    }
+
+    setProgress((current) => applyImportPreview(current, importPreview));
+    setImportMessage(`${importPreview.appliedCandidates.length} imported status value(s) applied.`);
+    setImportPreview(null);
+  }
+
+  function cancelImport() {
+    setImportPreview(null);
+    setImportMessage("Import cancelled.");
   }
 
   function resetProgress() {
@@ -123,6 +142,8 @@ function App() {
       </header>
 
       {importMessage && <p className="notice">{importMessage}</p>}
+
+      {importPreview && <ImportPreviewPanel preview={importPreview} onApply={applyImport} onCancel={cancelImport} />}
 
       <section className="dashboard" aria-label="Quest dashboard">
         <StatCard label="Total quests" value={stats.total} />
@@ -272,6 +293,88 @@ function ValidationPanel({ issues }: { issues: ValidationIssue[] }) {
         </ul>
       )}
     </aside>
+  );
+}
+
+function ImportPreviewPanel({
+  preview,
+  onApply,
+  onCancel,
+}: {
+  preview: ImportPreview;
+  onApply: () => void;
+  onCancel: () => void;
+}) {
+  const reviewCandidates = [...preview.invalid, ...preview.ambiguous, ...preview.unmatched].slice(0, 12);
+
+  return (
+    <section className="import-preview" aria-labelledby="import-preview-heading">
+      <div className="section-heading">
+        <h2 id="import-preview-heading">Import preview</h2>
+        <span>{preview.summary.totalRows} row(s)</span>
+      </div>
+
+      <div className="import-preview-body">
+        <div className="import-summary" aria-label="Import summary">
+          <SummaryMetric label="Matched" value={preview.appliedCandidates.length} />
+          <SummaryMetric label="Unmatched" value={preview.summary.unmatched} />
+          <SummaryMetric label="Ambiguous" value={preview.summary.ambiguous} />
+          <SummaryMetric label="Invalid status" value={preview.summary.invalid} />
+        </div>
+
+        <p className="import-detail">
+          Exact ID: {preview.summary.exactId} | Title + trader: {preview.summary.exactTitleTrader} | Title only:{" "}
+          {preview.summary.exactTitle}
+        </p>
+
+        {reviewCandidates.length > 0 && (
+          <ul className="import-issue-list">
+            {reviewCandidates.map((candidate) => (
+              <ImportCandidateItem
+                key={`${candidate.rowNumber}-${candidate.rawId ?? candidate.rawTitle ?? "row"}`}
+                candidate={candidate}
+              />
+            ))}
+          </ul>
+        )}
+
+        <div className="actions import-actions">
+          <button type="button" onClick={onApply} disabled={preview.appliedCandidates.length === 0}>
+            Apply matched import
+          </button>
+          <button type="button" className="secondary" onClick={onCancel}>
+            Cancel
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SummaryMetric({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="summary-metric">
+      <span>{label}</span>
+      <strong>{value}</strong>
+    </div>
+  );
+}
+
+function ImportCandidateItem({ candidate }: { candidate: ImportCandidate }) {
+  const label = candidate.rawTitle ?? candidate.rawId ?? `Row ${candidate.rowNumber}`;
+  const matchText = candidate.matches?.length ? ` Matches: ${candidate.matches.join(", ")}` : "";
+
+  return (
+    <li>
+      <strong>
+        Row {candidate.rowNumber}: {candidate.confidence}
+      </strong>
+      <span>
+        {label}
+        {candidate.rawTrader ? ` (${candidate.rawTrader})` : ""} - {candidate.reason ?? "Needs review."}
+        {matchText}
+      </span>
+    </li>
   );
 }
 

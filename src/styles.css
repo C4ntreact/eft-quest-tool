@@ -51,6 +51,11 @@ button.secondary:hover {
   background: #ddd5ca;
 }
 
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 input,
 select {
   min-height: 40px;
@@ -144,6 +149,71 @@ p {
   border: 1px solid #d6d0c6;
   border-radius: 8px;
   background: #ffffff;
+}
+
+.import-preview {
+  margin-bottom: 18px;
+  border: 1px solid #d6d0c6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.import-preview-body {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.import-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.summary-metric {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid #e3ded6;
+  border-radius: 6px;
+  background: #f8faf9;
+}
+
+.summary-metric span,
+.import-detail {
+  color: #657173;
+  font-size: 0.88rem;
+}
+
+.summary-metric strong {
+  font-size: 1.4rem;
+}
+
+.import-issue-list {
+  display: grid;
+  gap: 8px;
+  max-height: 260px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.import-issue-list li {
+  display: grid;
+  gap: 4px;
+  padding: 10px 12px;
+  border-left: 4px solid #b7862a;
+  border-radius: 6px;
+  background: #f7f4ef;
+}
+
+.import-issue-list span {
+  color: #4f5b5d;
+}
+
+.import-actions {
+  justify-content: flex-start;
 }
 
 .controls label {
@@ -314,6 +384,7 @@ p {
   }
 
   .dashboard,
+  .import-summary,
   .controls,
   .content-grid {
     grid-template-columns: 1fr;
