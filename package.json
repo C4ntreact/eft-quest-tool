@@ -6,6 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
+    "data:generate": "node scripts/generateQuestData.mjs",
+    "data:generate:tarkovdev": "node scripts/generateQuestData.mjs --source=tarkov-dev",
+    "data:generate:tarkovtracker": "node scripts/generateQuestData.mjs --source=tarkovtracker --allow-low-counts",
+    "data:validate": "node scripts/generateQuestData.mjs --validate",
     "preview": "vite preview"
   },
   "dependencies": {

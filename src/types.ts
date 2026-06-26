@@ -17,9 +17,11 @@ export interface Quest {
   kappaRequired: boolean;
   requiredLevel?: number | null;
   prerequisites: string[];
+  prerequisiteGroups?: string[][];
   alternatives: string[];
   map?: string | null;
   wikiUrl?: string | null;
+  sourceId?: number | string;
 }
 
 export type ProgressState = Record<string, QuestStatus>;
@@ -31,6 +33,7 @@ export interface QuestWithStatus extends Quest {
 export interface QuestNode extends QuestWithStatus {
   depth: number;
   missingPrerequisites: string[];
+  missingPrerequisiteGroups: string[][];
 }
 
 export interface ValidationIssue {

@@ -28,6 +28,19 @@ export function validateQuestData(quests: readonly Quest[]): ValidationIssue[] {
       }
     }
 
+    for (const group of quest.prerequisiteGroups ?? []) {
+      for (const prerequisiteId of group) {
+        if (!questIds.has(prerequisiteId)) {
+          issues.push({
+            id: `missing-prerequisite-group-${quest.id}-${prerequisiteId}`,
+            severity: "error",
+            message: `${quest.title} references missing prerequisite group quest ${prerequisiteId}.`,
+            questIds: [quest.id, prerequisiteId],
+          });
+        }
+      }
+    }
+
     for (const alternativeId of quest.alternatives) {
       if (!questIds.has(alternativeId)) {
         issues.push({
@@ -46,38 +59,70 @@ export function validateQuestData(quests: readonly Quest[]): ValidationIssue[] {
 export function validateProgress(quests: readonly Quest[], progress: ProgressState): ValidationIssue[] {
   const issues: ValidationIssue[] = [];
   const questById = new Map(quests.map((quest) => [quest.id, quest]));
+  const reportedAlternativePairs = new Set<string>();
 
   for (const quest of quests) {
     if (progress[quest.id] !== "completed" && progress[quest.id] !== "active") {
+      for (const alternativeId of quest.alternatives) {
+        addAlternativeIssue(quest.id, alternativeId);
+      }
+
       continue;
     }
 
-    const incompletePrerequisites = quest.prerequisites.filter(
-      (prerequisiteId) => progress[prerequisiteId] !== "completed",
-    );
+    const incompletePrerequisiteGroups = getIncompletePrerequisiteGroups(quest, progress, questById);
 
-    if (incompletePrerequisites.length > 0) {
+    if (incompletePrerequisiteGroups.length > 0) {
+      const incompletePrerequisites = Array.from(new Set(incompletePrerequisiteGroups.flat()));
       issues.push({
-        id: `completed-without-prerequisites-${quest.id}`,
+        id: `missing-prerequisites-${quest.id}`,
         severity: "warning",
-        message: `${quest.title} is ${progress[quest.id]} but has incomplete prerequisites: ${incompletePrerequisites
-          .map((id) => questById.get(id)?.title ?? id)
+        message: `${quest.title} is ${progress[quest.id]} but has incomplete prerequisite group(s): ${incompletePrerequisiteGroups
+          .map((group) => group.map((id) => questById.get(id)?.title ?? id).join(" or "))
           .join(", ")}.`,
         questIds: [quest.id, ...incompletePrerequisites],
       });
     }
 
     for (const alternativeId of quest.alternatives) {
-      if (progress[alternativeId] === "completed" && quest.id < alternativeId) {
-        issues.push({
-          id: `mutually-exclusive-completed-${quest.id}-${alternativeId}`,
-          severity: "warning",
-          message: `${quest.title} and ${questById.get(alternativeId)?.title ?? alternativeId} are mutually exclusive but both completed.`,
-          questIds: [quest.id, alternativeId],
-        });
-      }
+      addAlternativeIssue(quest.id, alternativeId);
     }
   }
 
   return issues;
+
+  function addAlternativeIssue(questId: string, alternativeId: string): void {
+    if (progress[questId] !== "completed" || progress[alternativeId] !== "completed") {
+      return;
+    }
+
+    const pairKey = [questId, alternativeId].sort().join("::");
+    if (reportedAlternativePairs.has(pairKey)) {
+      return;
+    }
+
+    reportedAlternativePairs.add(pairKey);
+    issues.push({
+      id: `mutually-exclusive-completed-${pairKey}`,
+      severity: "warning",
+      message: `${questById.get(questId)?.title ?? questId} and ${
+        questById.get(alternativeId)?.title ?? alternativeId
+      } are mutually exclusive but both completed.`,
+      questIds: [questId, alternativeId],
+    });
+  }
+}
+
+function getIncompletePrerequisiteGroups(
+  quest: Quest,
+  progress: ProgressState,
+  questById: ReadonlyMap<string, Quest>,
+): string[][] {
+  const groups = quest.prerequisiteGroups?.length
+    ? quest.prerequisiteGroups
+    : quest.prerequisites.map((prerequisiteId) => [prerequisiteId]);
+
+  return groups
+    .map((group) => group.filter((prerequisiteId) => questById.has(prerequisiteId)))
+    .filter((group) => group.length > 0 && !group.some((prerequisiteId) => progress[prerequisiteId] === "completed"));
 }
